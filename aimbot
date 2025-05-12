@@ -66,3 +66,10 @@ UserInputService.InputEnded:Connect(function(input, gameProcessed)
         aiming = false
     end
 end)
+
+Rayfield:Notify({
+   Title = "Aimbot Buttons",
+   Content = "Press and hold 'u' to activate, let go to stop.",
+   Duration = 6.5,
+   Image = 4483362458,
+})
